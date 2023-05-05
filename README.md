@@ -93,19 +93,29 @@ The QT build of PCSX2 can natively detect the Steam Deck buttons so binding shou
 
 In order to bind a crouch/stand there are a few options. The author used the following steps
 
+<<<<<<< HEAD
 - Bind Pressure Modifier to SDL-0/LeftStick and set the modifier to 0.20x
+=======
+- In PCSX2 controller settings rebind Circle to another button (I used clicking the trackpad)
+
+- Still in PCSX2 click the Macros tab
+
+- Check the boxes for Triangle and Apply Pressure
+
+- Bind this macro to B (circle)
+
+- Switch to Game Mode to set up back grip buttons
+>>>>>>> eade11b (updating controller binds)
 
 - Enable the back grip buttons in the controller settings on game mode
 
-- Still in Game Mode - bind R4 to left stick click
+- Still in Game Mode - bind R4 to B (circle)
 
-- Then add a subcommand to press the Y button (triangle)
-
-- Bind L4 to triangle
-
-This setup allows you to use the grip buttons to quickly prone/stand in game without sacrificing the circle button - the only caveat being that if you accidentally hold the crouch/stand you will change your fire rate.
+- Bind L4 to Y (triangle)
 
 ![controller-binds](screenshots/controller-binds.png)
+
+![Macro](screenshots/triangle-plus-pressure.png)
 
 ![back-grip-binds](screenshots/back-grip-binds.png)
 
