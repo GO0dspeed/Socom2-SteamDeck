@@ -93,8 +93,6 @@ The QT build of PCSX2 can natively detect the Steam Deck buttons so binding shou
 
 In order to bind a crouch/stand there are a few options. The author used the following steps
 
-- Bind Pressure Modifier to SDL-0/LeftStick and set the modifier to 0.20x
-
 - In PCSX2 controller settings rebind Circle to another button (I used clicking the trackpad)
 
 - Still in PCSX2 click the Macros tab
